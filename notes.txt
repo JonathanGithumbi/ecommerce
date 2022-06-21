@@ -1,0 +1,11 @@
+learnt about :
+1. if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+
+2. adding a method to the context pprocessors so that you have acces to the returned data
+
+3.using "django-admin startproject <name> ." to create a project inside the current folder
+
+4.using covreage to check for which parts of your code require testing
+
+5. using get_absolute_url to generate the url for a mode object
